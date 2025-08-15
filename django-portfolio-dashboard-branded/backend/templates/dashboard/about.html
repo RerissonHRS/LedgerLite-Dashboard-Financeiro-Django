@@ -1,0 +1,42 @@
+{% extends 'partials/base.html' %}
+{% block title %}Sobre o Projeto{% endblock %}
+{% block content %}
+<div class="row g-4">
+  <div class="col-md-7">
+    <div class="card shadow-sm h-100">
+      <div class="card-body">
+        <h4 class="card-title mb-3">Objetivo</h4>
+        <p>Demonstrar habilidades práticas em <strong>Django</strong> com foco em qualidade de código, organização e uma UI amigável a recrutadores.</p>
+        <h5 class="mt-4">O que este projeto demonstra</h5>
+        <ul>
+          <li>Autenticação (Login/Logout), rotas protegidas e permissões básicas</li>
+          <li>Modelagem de dados com Django ORM</li>
+          <li>CRUD completo (criar, listar, editar, excluir) de <em>Vendas</em></li>
+          <li>Dashboard com <strong>Chart.js</strong> + KPIs</li>
+          <li>Exportação de dados em <strong>CSV</strong> e <strong>Excel</strong></li>
+          <li>Templates com <strong>Bootstrap 5</strong>, componentes reutilizáveis e responsividade</li>
+          <li>Testes básicos com <code>TestCase</code></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-5">
+    <div class="card shadow-sm h-100">
+      <div class="card-body">
+        <h4 class="card-title mb-3">Contato</h4>
+        <ul class="list-unstyled">
+          <li class="mb-2"><strong>GitHub:</strong> <a href="https://github.com/RerissonHRS" target="_blank">RerissonHRS</a></li>
+          <li class="mb-2"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rerisson-henrique-rodrigues-da-silva-71125519" target="_blank">Perfil</a></li>
+          <li class="mb-2"><strong>Stack:</strong> Django, Bootstrap 5, Chart.js, SQLite</li>
+        </ul>
+        <h5 class="mt-4">Como rodar</h5>
+        <ol>
+          <li>Crie e ative um venv</li>
+          <li>Instale dependências com <code>pip install -r requirements.txt</code></li>
+          <li>Aplicar migrações e rodar o servidor</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
